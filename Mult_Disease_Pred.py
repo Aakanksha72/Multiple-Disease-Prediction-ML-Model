@@ -4,8 +4,8 @@ from streamlit_option_menu import option_menu
 
 
 #loading models 
-dia_model=pickle.load(open("C:\Users\PYARE LAL\Multiple_Disease_Prediction_Model\diabetese_trained_model.pkl",'rb'))
-heart_model=pickle.load(open("C:\Users\PYARE LAL\Multiple_Disease_Prediction_Model\heart_trained_model.pkl",'rb'))
+dia_model=pickle.load(open("Multiple_Disease_Prediction_Model\diabetese_trained_model.pkl",'rb'))
+heart_model=pickle.load(open("Multiple_Disease_Prediction_Model\heart_trained_model.pkl",'rb'))
 
 #sidebar
 with st.sidebar:
